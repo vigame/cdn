@@ -1732,7 +1732,7 @@ function removeFromCart( gid )
 
 function dropdownSelectOption( dropdownName, subId, inCart )
 {
-		$J('#add_to_cart_' + dropdownName + '_value').val( subId );
+	$J('#add_to_cart_' + dropdownName + '_value').val( subId );
 	$J('#add_to_cart_' + dropdownName + '_selected_text').html( $J('#add_to_cart_' + dropdownName + '_menu_option_' + subId).html() );
 	$J('#add_to_cart_' + dropdownName + '_description_text').html( $J('#add_to_cart_' + dropdownName + '_menu_option_description_' + subId).html() );
 	if ( inCart )

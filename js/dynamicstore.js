@@ -1656,4 +1656,3 @@ function GetScreenshotURL( appid, filename, sizeStr )
 
 	return 'https://steamcdn-a.akamaihd.net/steam/' + 'apps/' + appid + '/' + filename;
 }
-

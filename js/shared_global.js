@@ -1,4 +1,3 @@
-
 Steam = {
 	sm_bInitialized: false,
 	sm_bUserInClient: false,
